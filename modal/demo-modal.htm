@@ -1,0 +1,45 @@
+<!-- /*************************************************/ -->
+<link rel="stylesheet" href="windowfiles/dhtmlwindow.css" type="text/css" />
+<script type="text/javascript" src="windowfiles/dhtmlwindow.js">
+</script>
+<link rel="stylesheet" href="modalfiles/modal.css" type="text/css" />
+<script type="text/javascript" src="modalfiles/modal.js"></script>
+<!-- /*************************************************/ -->
+
+<!-- /*************************************************/ -->
+<div id="modalalertdiv" style="display:none;">
+<div style="background: #F3F3F3; height: 100%; padding: 5px">
+<b>Age Verification Check</b>
+<p>I certify that I'm above 13 years old, and love web development!</p>
+<form id="agecheck">
+<input type="button" value="Confirm" style="margin-right: 20px" onClick="process_age('yes')" /> <input id="denybutton" type="button" value="Deny" onClick="process_age('no')" />
+</form>
+</div>
+</div>
+<!-- /*************************************************/ -->
+
+
+<!-- /*************************************************/ -->
+<script type="text/javascript">
+
+function opennewsletter(){
+	emailwindow=dhtmlmodal.open('EmailBox', 'iframe', 'modalfiles/newsletter.htm', 'Newsletter Signup page', 'width=350px,height=200px,center=1,resize=0,scrolling=1')
+
+emailwindow.onclose=function(){ //Define custom code to run when window is closed
+	var theform=this.contentDoc.forms[0] //Access first form inside iframe just for your reference
+	var theemail=this.contentDoc.getElementById("emailfield") //Access form field with id="emailfield" inside iframe
+	if (theemail.value.indexOf("@")==-1){ //crude check for invalid email
+		alert("Please enter a valid email address")
+		return false //cancel closing of modal window
+	}
+	else{ //else if this is a valid email
+		document.getElementById("youremail").innerHTML=theemail.value //Assign the email to a span on the page
+		return true //allow closing of window
+	}
+}
+} //End "opennewsletter" function
+
+  </script>
+
+<a href="#" onClick="opennewsletter(); return false">Signup for our newletter</a> <span id="youremail" style="color: red"></span>
+<!-- /*************************************************/ -->
