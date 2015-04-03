@@ -1,0 +1,94 @@
+Hey There !!!
+This is Rakshit shah , Are you Newbie for Php | mysql ??
+
+Don't worry , I will Guide you...
+ 
+You have to  follow this steps:
+
+≡ You have to first install XAMPP | WAMPP  (google it | download it | install it) to run php on local host 
+I would prefer XAMPP for windows n ubuntu
+
+≡ then check it on browser (chrome , firefox , any )
+by typing on address bar >> localhost 
+that will show you its working or showing some page  
+
+≡ after that type in address bar >> localhost/phpmyadmin
+
+≡ create new DATABASE  >>  name : studentinfo
+
+≡ click on studentinfo (left side column)
+
+≡ now at middle-top side you can see Import/Export button >>click on import button 
+
+≡ choose file which you downloaded in this folder having name :  studentinfo (1).sql
+
+≡ then click on GO button (@bottom side) you have almost done (only database work) , you can see many tables are created inside studentinfo database
+
+≡ Now
+[windows user] 
+ if you are using XAMPP:
+  		in c drive c:\\ xampp>>htdocs(root file)>>student(create folder) >> copy whole folder which you downloaded
+ if you are using XAMPP:
+  		in c drive c:\\ wampp>>www(root file)>>student(create folder) >> copy whole folder which you downloaded  
+
+≡ Now come to browser >> @addressbar type >> http://localhost/student/StudentInformationProject/
+
+≡ this will directly open INDEX.PHP of  StudentInformationProject folder & you can see semi-responsive website which I have created.
+
+≡ Now you have to check values in tables and insert to given text boxes
+
+≡ [HOME PAGE] : detail about this website
+≡ [STUDENT]:
+	search by number : insert>>  5 then press submit 
+		you will see result
+	press back @bottom side 
+	
+	if you want to search by name :insert  rakshit 
+		and choose "RAX"
+		then press submit
+
+		@bottom side you can see student detail
+		click on folder showing result>> you see that result xD	
+
+≡ [ADMIN] 
+
+		<<<admin>>>
+		username: 111
+		pswd : rax
+
+		<<<lecturer>>> 
+		username : 3
+		pswd : rax
+
+		≡ after login you can check all the menus edit , delete , modify whatever you want ...
+
+After checking >>
+click on LOGOUT @right side 
+you will be redirected to login page after  2 seconds ...
+
+««If you see error then it may be fault of your apache server | browser | other.... :P»»
+
+≡ [CONTACT US]
+	fill the form and msg what you want ....
+
+
+	that's it ... 
+
+	Subscribe me on ...
+	GITHUB > http://github.com/rakshitshah94
+Follow Me /Add Me
+
+Insta : rakshitshah94
+
+Twitter : rakshitshah94
+
+Snapchat : rakshitshah94
+
+Github : Rakshitshah94
+
+Hangout  google+  ...&more...
+
+Anywhere @Rakshitshah94
+
+                        THANK You
+
