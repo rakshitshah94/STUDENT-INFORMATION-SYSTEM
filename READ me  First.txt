@@ -1,3 +1,6 @@
+You MUst Open this with MS Word,Sublime or any text editor - except Notepad n Gedit(ubuntu)
+
+
 Hey There !!!
 This is Rakshit shah , Are you Newbie for Php | mysql ??
 
