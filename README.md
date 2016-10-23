@@ -6,16 +6,16 @@ Student Information Systems are the primary systems for operating colleges.
 </p>
 
 #Included below Modules in Student Information System
--Admin
--Attendance
--Contact
--Course
--Database Connectivity
--Dashboard
--Exam
--Find Record
--Lecture
--Result
--Search Record
--Student
--Subject
+-Admin<br>
+-Attendance<br>
+-Contact<br>
+-Course<br>
+-Database Connectivity<br>
+-Dashboard<br>
+-Exam<br>
+-Find Record<br>
+-Lecture<br>
+-Result<br>
+-Search Record<br>
+-Student<br>
+-Subject<br>
